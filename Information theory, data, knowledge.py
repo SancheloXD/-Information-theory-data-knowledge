@@ -78,7 +78,7 @@ def sortByProbability(n, p):
 
 # функция для отображения кодов Шеннона
 def display(n, p):
-    print("\n\n\n\tSymbol\tProbability\tCode",end='')
+    print("\n\n\n\tСимвол\tВероятность\tКод",end='')
     for i in range(n - 1,-1,-1):
         print("\n\t", p[i].sym, "\t\t", p[i].pro,"\t",end='')
         for j in range(p[i].top+1):
